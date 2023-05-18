@@ -202,6 +202,11 @@ a.btn-big {
 	gap: 20px;
 }
 
+.mobile-nav-list a:hover {
+	color: #01996d;
+	transition: 200ms ease;
+}
+
 .mobile-login {
 	display: flex;
 	align-items: center;
@@ -269,9 +274,6 @@ a.btn-big {
   display: flex;
   left: 0;
 }
-
-
-
 
 /* ...........................................................................home */
 .home {
@@ -400,7 +402,6 @@ a.btn-big {
 	position: relative;
 	padding-top: 135px;
 	padding-left: 88px;
-
 	margin-bottom: 55px;
 	font-family: 'Georgia', serif;
 	font-weight: 700;
@@ -485,7 +486,6 @@ a.btn-big {
 }
 
 /* ..........................................................section story */
-
 .story {
 	padding: 229px 0 176px;
 	background-color: #245852;
@@ -640,7 +640,6 @@ a.btn-big {
 	font-weight: 600;
 	line-height: 157%;
 }
-
 
 .product-content-subtitle {
 	font-family: 'Georgia', serif;
